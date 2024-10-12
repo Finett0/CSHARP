@@ -7,23 +7,22 @@ namespace FuncaoMaximoMin
         static void Main(string[] args)
         {
 
-            //Tecnica de interpolação
+            string produto1 = "Computador";
+            string produto2 = "Mesa de escritório";
 
-            int idade = 20;
-            double saldo = 100.390;
-            string nome = "Giovanni Finetto";
+            int idade = 30;
+            int codigo = 2590;
+            char genero = 'M';
 
-            Console.WriteLine("{0} tem {1} anos e tem saldo igual a {2:F0} reais", nome, idade, saldo);
+            double preco1 = 2100.0;
+            double preco2 = 650.50;
+            double medida = 53.264567;
 
-
-            int idade1 = 28;
-            double saldo1 = 50.000;
-            string nome1 = "Renata";
-
-            Console.WriteLine($"{nome1} tem {idade1} anos e tem saldo igual a {saldo1:F0} reais ");
+            Console.WriteLine($"Produtos:\r\n{produto1}, cujo o preço é ${preco1}\r\n{produto2}, cujo o preço é ${preco2}\r\nRegistro: {idade}, código {codigo} e gênero: {genero}\r\nMedida com oito casas decimais: {medida:F8}\r\nArredondado (três casas decimais):{medida:F3}\r\nSeparador Decimal invariant culture:" + medida.ToString("F3", CultureInfo.InvariantCulture));
 
 
 
         }
     }
 }
+

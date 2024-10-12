@@ -10,7 +10,7 @@ namespace MeuApp
             // Tipos primitivos
 
             int idade = 20;   // int representa o conjunto dos numero inteiros
-            string nome = "Giovanni"; // inteiros é um conjunto de caracteres, ou conjunto de chars
+            string nome = "Giovanni"; // string é um conjunto de caracteres, ou conjunto de chars
             double altura = 1.84; // double é o conjunto dos numeros reais a
             //Console.WriteLine($"Olá {nome} anos, um {altura} de altura e {idade} anos, correto?");
 

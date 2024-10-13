@@ -10,7 +10,7 @@ Se você está começando a aprender C#, ou já possui experiência e precisa re
 
 ### Estrutura dos Tópicos
 
-1. **Conceitos Básicos**: Sintaxe, tipos de dados, variáveis, operadores.
+1. **Fundamentos da Linguagem**: Sintaxe, tipos de dados, variáveis, operadores.
 2. **Controle de Fluxo**: Estruturas condicionais, loops, `switch`.
 3. **Funções e Métodos**: Parâmetros, retorno de funções, sobrecarga.
 4. **POO (Programação Orientada a Objetos)**: Classes, herança, polimorfismo, encapsulamento.
